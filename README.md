@@ -1,23 +1,10 @@
-Refugee Flows Analysis (2010–2022)
+Refugee Flow Analysis
 
-Overview
-This project examines global refugee movements between 2010 and 2022 using UNHCR data and investigates how socioeconomic factors (GDP per capita and Human Development Index) from the World Bank relate to those flows.
+This repository analyzes the worldwide forced migration trends by correlating UNHCR refugee figures of the period 1951-2022 against World Bank economics figures in the context of GDP per capita figures of the period 2010-2018. In a self-contained Jupyter notebook called RefugeeFlowsAnalysis.ipynb, the project illustrates the pipeline of acquiring the raw CSV data, standardizing country names, and generating three significant visualizations: a long-term time series of worldwide totals of the refugees, a bar plot of the top ten origin nations of the latest year, and a scatter plot investigating the correlation of the outflow of refugees and country GDP per capita.
 
-Files
+Inside the data directory, there is a collection of the raw data: UNHCR exports in data/unhcr and cleaned World Bank data in data/wb. It is easy to recreate the analysis by cloning this repository, opening the notebook in Jupyter Notebook or JupyterLab, and running the cells in sequence. There is explanation along the code to outline questions being asked, actions being undertaken to address them, and conclusions about the scale and drivers of displacement globally.
 
-RefugeeFlowsAnalysis.ipynb — the Jupyter notebook containing all code, analysis and visualisations
-
-data/unhcr/ — raw UNHCR refugee CSV files
-
-data/wb/ — raw World Bank GDP per capita and HDI CSV files
-
-How to run the analysis
-
-Clone the repository to your local machine
-
-Open RefugeeFlowsAnalysis.ipynb in Jupyter Notebook or JupyterLab
-
-Execute each cell in order to reproduce the full workflow
+Data have been supplied both by the World Bank and the UN High Commissioner for Refugees.
 
 Key steps in the notebook
 
