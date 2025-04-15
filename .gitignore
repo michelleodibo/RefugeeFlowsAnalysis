@@ -1,0 +1,9 @@
+# ignore the raw WDI dumps
+data/wb/WDIData.csv
+data/wb/world-development-indicators.zip
+
+# ignore everything in the extracted folder
+data/wb/world-development-indicators/*
+
+# but keep our slim file
+!data/wb/wdi_2010_2018.csv
